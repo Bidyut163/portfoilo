@@ -1,0 +1,42 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 0.1rem 1rem #1ba39c;
+  z-index: 10;
+
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+
+  &__list {
+    display: flex;
+
+    list-style-type: none;
+    font-size: 1.4rem;
+  }
+
+  &__list > * {
+    padding: 1rem 2rem;
+  }
+
+  &__item {
+  }
+
+  &__link:link,
+  &__link:visited {
+    /* color: #fff; */
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+}
+
+.logo {
+  height: 4rem;
+  width: 4rem;
+  margin: 1rem 0;
+  fill: #333;
+}

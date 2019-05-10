@@ -1,0 +1,14 @@
+.feature {
+  &__box {
+    flex-basis: 25%;
+    text-align: center;
+    padding: 0 2rem;
+  }
+
+  &__icon {
+    width: 8rem;
+    height: 8rem;
+    fill: #3eb5f7;
+    margin-bottom: 2rem;
+  }
+}

@@ -1,0 +1,32 @@
+.header {
+  height: 100vh;
+  font-family: "Raleway", sans-serif;
+
+  background-image: linear-gradient(to right bottom, #22cfc6, #147772),
+    url(../img/headerImg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  // background-image: linear-gradient(
+  //     to right bottom,
+  //     rgba(169, 183, 185, 0.815),
+  //     rgba(53, 58, 58, 0.801)
+  //   ),
+  //   url(../img/header-2.jpg);
+  // background-size: cover;
+
+  &__text-box {
+    font-size: 2rem;
+    color: #fff;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  &__icon {
+    fill: #fff;
+  }
+}

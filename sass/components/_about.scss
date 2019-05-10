@@ -1,0 +1,14 @@
+.about {
+  flex-basis: 50%;
+  margin-top: 7rem;
+  text-align: center;
+  padding: 5rem;
+
+  &__img {
+    width: 60%;
+  }
+
+  p {
+    font-size: 1.6rem;
+  }
+}

@@ -1,0 +1,90 @@
+.skills {
+  flex-basis: 50%;
+  margin-top: 7rem;
+
+  padding: 5rem;
+
+  &__list {
+    list-style-type: none;
+  }
+
+  &__item {
+    font-size: 1.5rem;
+    color: #fff;
+
+    display: flex;
+
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+
+    & > * {
+      padding: 0.4rem 1rem;
+    }
+  }
+
+  &__name {
+    background-color: #3bf5e5;
+    flex-basis: 20%;
+    text-align: center;
+  }
+
+  &__length {
+    background-color: #09b0a2;
+
+    &--css {
+      flex-basis: 60%;
+    }
+
+    &--html {
+      flex-basis: 68%;
+    }
+
+    &--javascript {
+      flex-basis: 64%;
+    }
+
+    &--react {
+      flex-basis: 56%;
+    }
+
+    &--node {
+      flex-basis: 60%;
+    }
+
+    &--mongo {
+      flex-basis: 52%;
+    }
+  }
+
+  &__value {
+    background-color: #eee;
+    color: #777;
+
+    text-align: end;
+
+    &--css {
+      flex-basis: 20%;
+    }
+
+    &--html {
+      flex-basis: 12%;
+    }
+
+    &--javascript {
+      flex-basis: 16%;
+    }
+
+    &--react {
+      flex-basis: 24%;
+    }
+
+    &--node {
+      flex-basis: 20%;
+    }
+
+    &--mongo {
+      flex-basis: 28%;
+    }
+  }
+}
